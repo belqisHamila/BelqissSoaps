@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+.nav-links {
+    border: 2px dashed darkcyan;
+    background-color:bisque ;
+    width: 1260px;
+    height: 75px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.nav-links img{
+    width: 75px;
+    height: 75px;
+}
