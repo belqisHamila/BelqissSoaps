@@ -34,13 +34,23 @@
 
 }
 
+
 .productSection {
-    display: inline-flex;
+    display: flex;
     align-items: center ;
+      overflow-x: auto;     /* enables horizontal scrolling */
+  gap: 20px;
+  padding: 20px;
+  scroll-snap-type: x mandatory; /* optional for snapping effect */
+}
+body {
+  overflow-x: hidden; /* disables horizontal scroll for the whole page */
 }
 
 .card {
   width: 300px;
+   scroll-snap-align: start;
+  flex: 0 0 auto; /*Prevents card from shrinking*/
   height: 500px;
   border: 1px solid #ccc;
   border-radius: 5px;
