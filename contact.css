@@ -3,3 +3,23 @@
     font-family: 'Comfortaa', sans-serif;
     background-color: #FFE6EB;
 }
+.nav-links {
+    border: 2px none darkcyan;
+    background-color:#FFE6EB ;
+    width: 1260px;
+    height: 100px;
+    font-family: 'Comfortaa', sans-serif;
+    display: flex;
+    align-items: center ;
+}
+
+.nav-links img{
+    width: 75px;
+    height: 75px;
+    padding: 15px;
+}
+
+
+.nav-links a {
+    padding: 15px;
+}

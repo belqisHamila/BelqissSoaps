@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test boutons</title>
+</head>
+<body>
+    <h2>Test de paniers</h2>
+
+    <a href="#" id="button">Bouton 1</a><br>
+    <a href="#" id="button2">Bouton 2</a><br>
+    <a href="#" id="button3">Bouton 3</a><br>
+    <a href="#" id="button4">Bouton 4</a><br>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const ids = [
+                'button', 'button2', 'button3', 'button4'
+            ];
+
+            function foo(event) {
+                event.preventDefault();
+                alert("🛒 Tu as ajouté un article au panier !");
+            }
+
+            ids.forEach(id => {
+                const btn = document.getElementById(id);
+                if (btn) {
+                    btn.addEventListener('click', foo);
+                } else {
+                    console.warn("❌ Bouton introuvable :", id);
+                }
+            });
+
+            console.log("✅ Script chargé !");
+        });
+    </script>
+</body>
+</html>
