@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
+.div1 {
+    width: 500px;
+    height: 400px;
+    padding: 15px;
+    margin: auto;
+    background-color: lightcyan;
+}
 .nav-links {
     border: 2px none darkcyan;
     background-color:#FFE6EB ;
@@ -82,4 +89,15 @@ padding: 15px;
   color: white;
   text-decoration: none;
   border-radius: 4px;
+}
+.mepic2{
+ width: 111px;
+    height: 200px; 
+}
+.div2{
+  width: 500px;
+    height: 400px;
+    padding: 15px;
+
+    background-color: lightcyan;
 }
